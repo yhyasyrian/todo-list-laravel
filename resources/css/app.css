@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer components {
+    .bg-primary {
+        @apply bg-violet-600;
+    }
+    .bg-primary-hover {
+        @apply hover:bg-violet-500;
+    }
+    .ring-primary {
+        @apply ring-violet-500;
+    }
+    .border-l-primary {
+        @apply border-l-violet-800;
+    }
+    .hover\:border-l-primary{
+        @apply hover:border-l-violet-800;
+    }
+    .grid-cols-1-to-3 {
+        @apply grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4;
+    }
+}
